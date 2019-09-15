@@ -9,7 +9,6 @@ import { RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component'; 
 
 import { HttpClientModule } from "@angular/common/http";
-import { HttpModule } from "@angular/http";
 //import { ReservationComponent } from './reservation/reservation.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, FormGroup,ReactiveFormsModule } from '@angular/Forms'; 
@@ -27,7 +26,6 @@ import { FormsModule, FormGroup,ReactiveFormsModule } from '@angular/Forms';
     BrowserModule,
 	FormsModule,HttpClientModule,
 	ReactiveFormsModule,
-	 HttpModule,
     RouterModule.forRoot([
       { path: '', component: PostComponent },
       { path: 'form', component: FormComponent },

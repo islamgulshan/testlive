@@ -1,5 +1,5 @@
 {
-  "name": "testing-app",
+  "name": "testlive",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -23,6 +23,7 @@
     "@angular/router": "~8.2.4",
     "bootstrap": "^4.3.1",
     "express": "^4.17.1",
+    "i": "^0.3.6",
     "jquery": "^3.4.1",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
