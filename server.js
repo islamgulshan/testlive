@@ -4,7 +4,7 @@ const path = require("path");
 
 const app = express();
 
-// Run the app by serving the static files
+// Run the app by serving the static files dsafda
 // in the dist directory
 app.use(express.static(__dirname + "/dist/testforlive"));
 
